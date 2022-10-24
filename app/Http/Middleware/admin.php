@@ -3,14 +3,10 @@
 namespace App\Http\Middleware;
 
 use Closure;
-use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\DB;
-
 class admin
 {
-    public static $d;
     /**
      * Handle an incoming request.
      *
@@ -20,7 +16,6 @@ class admin
      */
     public function handle(Request $request, Closure $next)
     {   
- 
             if (isset(Auth::guard('admin')->user()->role)&&Auth::guard('admin')->user()->role==0) {
                 return $next($request);
             }
