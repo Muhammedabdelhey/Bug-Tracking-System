@@ -52,7 +52,6 @@
                             @endforeach
                         </select>
                     </div>
-
                     <button class="btn btn-primary" name="insert">Add Bug</button>
                 </form>
             </div>

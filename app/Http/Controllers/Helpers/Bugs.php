@@ -55,7 +55,7 @@ class Bugs extends Controller
         DB::table("users")->where("id", "=", Auth::user()->id)->update([
             "performance" => $performance
         ]);
-        return  redirect("list/bugs");
+        return  redirect("tester/listbugs");
     }
 
     public static function solve_Bug($bugid)
