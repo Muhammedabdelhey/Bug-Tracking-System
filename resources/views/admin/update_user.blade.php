@@ -36,8 +36,8 @@
                             <option value="Tester" @if ($user->role == 'Tester') : selected @endif>
                                 Tester
                             </option>
-                            <option value="Devloper"@if ($user->role == 'Developer') : selected @endif>
-                                Devloper
+                            <option value="Developer"@if ($user->role == 'Developer') : selected @endif>
+                                Developer
                             </option>
                             <option value="Project Manager" @if ($user->role == 'Project Manager') : selected @endif>
                                 Project Manager

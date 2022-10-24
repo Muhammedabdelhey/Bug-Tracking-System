@@ -38,7 +38,7 @@
                                 Tester
                             </option>
                             <option value="Developer">
-                                Devloper
+                                Developer
                             </option>
                             <option value="Project Manager">
                                 Project Manager
