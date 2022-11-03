@@ -56,7 +56,7 @@ class Admin extends Controller
     }
     // get data and update it using  id
     public function update_User(Request $request)
-    {   
+    {
         DB::table('users')->where('id', $request->id)->update(
             [
                 'name' => $request->name,

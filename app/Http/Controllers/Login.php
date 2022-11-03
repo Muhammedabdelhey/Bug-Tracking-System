@@ -10,7 +10,6 @@ use Illuminate\Support\Facades\DB;
 
 class Login extends Controller
 {
-
     public function login()
     {
         $color = [
